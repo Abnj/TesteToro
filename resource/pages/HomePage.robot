@@ -10,9 +10,6 @@ Abrir o navegador
     Maximize Browser Window
     Go To    url=${URL}
 
-# Fechar o navegador
-#     Close Browser
-
 Dado que estou na home page do site e acesso a pagina de login
 
     Wait Until Element Is Visible    ${Home.botao_login}
